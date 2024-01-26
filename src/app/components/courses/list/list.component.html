@@ -1,0 +1,20 @@
+<div class="section courses">
+    <div class="container">
+        <div class="header-title flex-justify-content">
+            <h2>Courses list </h2>
+            <input class="button btn-primary" type="button" value="add course" routerLink="/courses/add">
+        </div>
+        <div class="card-container">
+            <div *ngFor="let course of courses" class="card">
+                <img class="card-image" [src]="course.image" alt="Card Image" [routerLink]="['/courses/update', course.id]" style="cursor: pointer;">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3 class="text">{{course.title}} </h3>
+                    </div>
+                    <div>
+                        <span class="primary">{{course.price}} DT/ Month</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

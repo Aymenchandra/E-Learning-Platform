@@ -1,0 +1,24 @@
+<div class="course-form">
+  <h2>Add Course</h2>
+  <form [formGroup]="courseForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="title">Title:</label>
+      <input type="text" id="title" formControlName="title">
+    </div>
+
+    <div class="form-group">
+      <label for="price">Price:</label>
+      <input type="number" id="price" formControlName="price">
+    </div>
+
+    <div class="form-group">
+      <label for="image">Upload Image:</label>
+      <input type="file" id="image" formControlName="image" accept="image/*" (change)="onFileSelected($event)">
+    </div>
+
+    <div class="form-group">
+      <input class="button btn-primary" type="submit" [disabled]="courseForm.invalid" value="add course" routerLink="/courses/add">
+
+    </div>
+  </form>
+</div>

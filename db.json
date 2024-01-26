@@ -1,0 +1,40 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Angular",
+      "price": 350,
+      "image": "https://res.cloudinary.com/dcscoeeoo/image/upload/v1706286932/Screenshot_32_bhih8z.png"
+    },
+    {
+      "id": 2,
+      "title": "Nodejs JS / React",
+      "price": 350,
+      "image": "https://res.cloudinary.com/dcscoeeoo/image/upload/v1706286932/Screenshot_33_u98eyn.png"
+    },
+    {
+      "id": 3,
+      "title": "Flutter / Firebase",
+      "price": 350,
+      "image": "https://res.cloudinary.com/dcscoeeoo/image/upload/v1706286931/Screenshot_34_kcj3ce.png"
+    },
+    {
+      "id": 4,
+      "title": "Business Intelligence",
+      "price": 350,
+      "image": "https://res.cloudinary.com/dcscoeeoo/image/upload/v1706286932/Screenshot_35_atiddn.png"
+    },
+    {
+      "id": 5,
+      "title": "Artificial Intelligence",
+      "price": 350,
+      "image": "https://res.cloudinary.com/dcscoeeoo/image/upload/v1706286932/Screenshot_36_ghbysv.png"
+    },
+    {
+      "id": 6,
+      "title": "Devops",
+      "price": 350,
+      "image": "https://res.cloudinary.com/dcscoeeoo/image/upload/v1706286932/Screenshot_37_hzncli.png"
+    }
+  ]
+}
